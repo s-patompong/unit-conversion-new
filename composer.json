@@ -1,16 +1,16 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "s-patompong/unit_conversion_new",
+    "description": "This is my package UnitConversion",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
+        "s-patompong",
+        "unit_conversion_new"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/s-patompong/unit_conversion_new",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Patompong Savaengsuk",
+            "email": "p.pangpond@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "SPatompong\\UnitConversion\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "SPatompong\\UnitConversion\\Tests\\": "tests"
         }
     },
     "scripts": {
