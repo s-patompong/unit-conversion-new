@@ -11,7 +11,6 @@ class Weight
 
     public function __construct(private float $kilograms)
     {
-
     }
 
     public function toLbs(): float
